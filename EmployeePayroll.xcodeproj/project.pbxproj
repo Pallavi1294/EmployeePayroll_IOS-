@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9BB96A672125F2D5004B6471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB96A662125F2D5004B6471 /* AppDelegate.swift */; };
-		9BB96A692125F2D5004B6471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB96A682125F2D5004B6471 /* ViewController.swift */; };
+		9BB96A692125F2D5004B6471 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB96A682125F2D5004B6471 /* LoginViewController.swift */; };
 		9BB96A6C2125F2D5004B6471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB96A6A2125F2D5004B6471 /* Main.storyboard */; };
 		9BB96A6E2125F2D7004B6471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB96A6D2125F2D7004B6471 /* Assets.xcassets */; };
 		9BB96A712125F2D7004B6471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB96A6F2125F2D7004B6471 /* LaunchScreen.storyboard */; };
+		9BB96A7F2125F80C004B6471 /* Payroll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BB96A7E2125F80B004B6471 /* Payroll.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BB96A632125F2D5004B6471 /* EmployeePayroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeePayroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB96A662125F2D5004B6471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BB96A682125F2D5004B6471 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BB96A682125F2D5004B6471 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9BB96A6B2125F2D5004B6471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BB96A6D2125F2D7004B6471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB96A702125F2D7004B6471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB96A722125F2D7004B6471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB96A7E2125F80B004B6471 /* Payroll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Payroll.jpg; path = ../../Payroll.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				9BB96A662125F2D5004B6471 /* AppDelegate.swift */,
-				9BB96A682125F2D5004B6471 /* ViewController.swift */,
+				9BB96A682125F2D5004B6471 /* LoginViewController.swift */,
+				9BB96A7E2125F80B004B6471 /* Payroll.jpg */,
 				9BB96A6A2125F2D5004B6471 /* Main.storyboard */,
 				9BB96A6D2125F2D7004B6471 /* Assets.xcassets */,
 				9BB96A6F2125F2D7004B6471 /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB96A712125F2D7004B6471 /* LaunchScreen.storyboard in Resources */,
+				9BB96A7F2125F80C004B6471 /* Payroll.jpg in Resources */,
 				9BB96A6E2125F2D7004B6471 /* Assets.xcassets in Resources */,
 				9BB96A6C2125F2D5004B6471 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB96A692125F2D5004B6471 /* ViewController.swift in Sources */,
+				9BB96A692125F2D5004B6471 /* LoginViewController.swift in Sources */,
 				9BB96A672125F2D5004B6471 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
